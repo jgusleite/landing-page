@@ -3,6 +3,11 @@
   src: url(roboto.ttf);
 }
 
+@font-face {
+  font-family: roboto-light-italic;
+  src: url(roboto-light-italic.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -52,7 +57,7 @@ a {
   display: flex;
   background-color: #1f2937;
   padding-top: 100px;
-  padding-bottom: 20px;
+  padding-bottom: 150px;
   justify-content: center;
   gap: 250px;
 }
@@ -151,10 +156,12 @@ a {
   font-size: 36px;
   font-weight: 100;
   font-style: italic;
+  font-family: robot-light-italic;
 }
 
 .inspiring-quote-author {
   align-self: flex-end;
+  margin: 5px 25px;
 }
 
 /* Call to action */
