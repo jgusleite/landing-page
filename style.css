@@ -1,5 +1,195 @@
+@font-face {
+  font-family: roboto;
+  src: url(roboto.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: roboto;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+/* Header Section */
+
+.header {
+  display: flex;
+  background-color: #1f2937;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.header-logo {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.header-links {
+  display: flex;
+  gap: 20px;
+}
+
+.h-link {
+  color: #f9faf8;
+  font-size: 18px;
+}
+
+/* Hero Main Section */
+
+.hero-main-section {
+  display: flex;
+  background-color: #1f2937;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  justify-content: center;
+  gap: 250px;
+}
+
+.hero-main-block-text {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+.hero-main-text {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero-secondary-text {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.signup-button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-size: 16px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  width: 130px;
+  height: 35px;
+}
+
+.img-placeholder {
+  background-color: #88898d;
+  color: #f9faf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
+  height: 250px;
+}
+
+/* Info Section */
+
+.info-main-text {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px;
+}
+
+.items-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-text {
+  width: 150px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.info-img {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+/* Inspiring Quote */
+
+.inspiring-quote-section {
+  background-color: #e5e7eb;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 150px 0;
+}
+
+.align-quote-author {
+  width: 1300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inspiring-quote {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.inspiring-quote-author {
+  align-self: flex-end;
+}
+
+/* Call to action */
+
+.call-to-action-section {
+  padding: 200px;
+}
+
+.call-to-action-main {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  padding: 80px 0;
+  border-radius: 10px;
+  color: #f9faf8;
+}
+
+.call-to-action-button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 16px;
+  font-weight: bold;
+  border-color: white;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 0 40px;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
 }
